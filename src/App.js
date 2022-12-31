@@ -1,13 +1,11 @@
+import WeatherSearch from "./WeatherSearch";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Is this working out </p>
-      </header>
+      <h1>Weather App</h1>
+      <WeatherSearch />
     </div>
   );
 }
-
-export default App;
