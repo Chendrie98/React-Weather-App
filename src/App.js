@@ -1,6 +1,7 @@
 import WeatherSearch from "./WeatherSearch";
 import "./App.css";
 import "./index.css";
+
 import GitHubLink from "./GitHubLink";
 
 export default function App() {
@@ -10,7 +11,4 @@ export default function App() {
       <GitHubLink />
     </div>
   );
-  <button type="button" class="btn btn-primary">
-    Primary
-  </button>;
 }
