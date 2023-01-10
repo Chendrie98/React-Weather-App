@@ -6,8 +6,14 @@
   background-color: white;
   border: 1px solid black;
   margin: 30px auto;
+  margin-top: 50px;
   height: 315px;
   width: 600px;
   padding: 25px;
   margin-right: -25px;
+}
+.Link-Decor {
+  color: white;
+  text-decoration: none;
+  margin-right: -38px;
 }
