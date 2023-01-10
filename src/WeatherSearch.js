@@ -35,22 +35,18 @@ export default function WeatherSearch() {
     </form>
   );
 
-  if (loaded) {
-    return (
-      <div className="Weather-App">
-        {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <li>Description: {weather.description}</li>
-          <li>Humidity: {weather.humidity}%</li>
-          <li>Wind: {weather.wind}km/h</li>
-          <li>
-            <img src={weather.icon} alt={weather.description} />
-          </li>
-        </ul>
-      </div>
-    );
-  } else {
-    return form;
-  }
+  return (
+    <div className="Weather-App">
+      {form}
+      <ul>
+        <li>Temperature: {Math.round(weather.temperature)}°C</li>
+        <li>Description: {weather.description}</li>
+        <li>Humidity: {weather.humidity}%</li>
+        <li>Wind: {weather.wind}km/h</li>
+        <li>
+          <img src={weather.icon} alt={weather.description} />
+        </li>
+      </ul>
+    </div>
+  );
 }
