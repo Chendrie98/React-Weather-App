@@ -35,7 +35,9 @@ export default function WeatherSearch() {
         onChange={updateCity}
         className="Input-Bar"
       />
-      <button type="Submit">Search</button>
+      <button className="Input-Button" type="Submit">
+        Search
+      </button>
     </form>
   );
 
