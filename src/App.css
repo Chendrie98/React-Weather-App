@@ -13,6 +13,9 @@
   padding: 25px;
   margin-right: -25px;
 }
+.Weather-App li {
+  list-style: none;
+}
 .Link-Decor {
   color: white;
   text-decoration: none;
