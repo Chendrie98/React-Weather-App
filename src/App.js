@@ -10,4 +10,7 @@ export default function App() {
       <GitHubLink />
     </div>
   );
+  <button type="button" class="btn btn-primary">
+    Primary
+  </button>;
 }
